@@ -1,14 +1,144 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "dechetterie": [
+    {
+      "id" : 1,
+      "commune" : "MOUZILLON",
+      "departement": 44,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Missione_del_Guaricano-discarica_di_Duquesa.jpg/1200px-Missione_del_Guaricano-discarica_di_Duquesa.jpg",
+      "avis" :"Je ne recommande pas cette décharge sauvage. L'accès n'est pas facile !"
+    },
+    {
+      "id" : 2,
+      "commune" : "CARRIERES-SOUS-POISSY",
+      "departement": 78,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.francebleu.fr%2Finfos%2Fclimat-environnement%2Fdecharge-sauvage-a-carrieres-sous-poissy-une-association-porte-plainte-1524754263&psig=AOvVaw3n_Ri1xDV-LWMynccFUHQS&ust=1715946542229000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKD7gpaNkoYDFQAAAAAdAAAAABAn",
+      "avis" :"Décharge sauvage pratique mais doit être mieux surveillée. Trop de déchets biodégradables."
+    },
+    {
+      "id" : 3,
+      "commune" : "GORDES",
+      "departement": 84,
+      "image": "https://www.leparisien.fr/resizer/NKsM2Gr3YSFUY_G2x_dPXuquqe4=/arc-anglerfish-eu-central-1-prod-leparisien/public/Y2I2I6EH7BHQ3PYFJAEKFOLPNU.jpg",
+      "avis" :"Décharge à proximité immédiate de la ville. En revanche, l'odeur n'est pas très agréable"
+    },
+    {
+      "id" : 4,
+      "commune" : "SAUZON",
+      "departement": 56,
+      "image": "https://www.najactribune.com/wp-content/uploads/2024/05/alerte-hausse-des-decharges-sauvages-decouvrez-pourquoi-labandon-de-dechets-est-desormais-un-delit.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 5,
+      "commune" : "SAINT-CIRQ-LAPOPIE",
+      "departement": 46,
+      "image": "https://www.francebleu.fr/s3/cruiser-production/2021/03/8c8193f9-2dbe-4dc6-9d76-ad92dee4ab92/1200x680_visuel_france_bleu.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 6,
+      "commune" : "COLLONGES-LA-ROUGE",
+      "departement": 19,
+      "image": "https://fne.asso.fr/system/files/images/49095959917_24451a77e3_k%20%281%29.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 7,
+      "commune" : "PEROUGES",
+      "departement": 1,
+      "image": "https://static.cnews.fr/sites/default/files/000_14688p_5efdddc9e8694_0.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 8,
+      "commune" : "SAINT-VERAN",
+      "departement": 5,
+      "image": "https://lesdecheticiens.fr/wp-content/uploads/2021/06/Decharge-brute-Corse-BBEJON-bis-scaled.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 9,
+      "commune" : "MONCONTOUR",
+      "departement": 22,
+      "image": "https://www.pariszigzag.fr/wp-content/uploads/2019/09/depot-sauvage-paris-zigzag-e1569586530353.png",
+      "avis" :""
+    },
+    {
+      "id" : 10,
+      "commune" : "LES-BAUX-DE-PROVENCE",
+      "departement": 13,
+      "image": "https://www.francebleu.fr/s3/cruiser-production/2019/07/e06aa998-50ab-4de3-9a60-5e3f79872bca/1200x680_img_20190621_133305.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 11,
+      "commune" : "LA-ROQUE-GAGEAC",
+      "departement": 24,
+      "image": "https://arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/ETLE7H454TQEWKBO7I2GNFSH4E.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 12,
+      "commune" : "LOURMANIN",
+      "departement": 84,
+      "image": "https://media.sudouest.fr/2516956/1000x500/so-5d50044c66a4bd467c9b31da-ph0.jpg?v=1565525203",
+      "avis" :""
+    },
+    {
+      "id" : 13,
+      "commune" : "LA-GARDE-GUERIN",
+      "departement": 48,
+      "image": "https://france3-regions.francetvinfo.fr/image/mQfLd343VRIXVSVCYDb5oZEKJdI/1920x1080/regions/2024/03/22/ftv3846-00-00-01-01-65fd5c271eafb513413038.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 14,
+      "commune" : "CHATEAUNEUF-EN-AUXOIS",
+      "departement": 21,
+      "image": "https://basta.media/IMG/jpg/decharges.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 15,
+      "commune" : "SARE",
+      "departement": 64,
+      "image": "https://img.20mn.fr/4n_DRJpjRVmA4oHTGzVZjA/1444x920_decharge-sauvage-france-illustration",
+      "avis" :""
+    },
+    {
+      "id" : 16,
+      "commune" : "GERBEROY",
+      "departement": 60,
+      "image": "https://i.f1g.fr/media/eidos/orig/2022/05/12/XVM57073820-d215-11ec-ae5b-3111653054e7.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 17,
+      "commune" : "SAINT-AIGNAN",
+      "departement": 41,
+      "image": "https://www.banquedesterritoires.fr/sites/default/files/2022-01/49095955317_512559f9ea_k.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 18,
+      "commune" : "MONTREUIL-SUR-MER",
+      "departement": 62,
+      "image": "https://prmeng.rosselcdn.net/sites/default/files/dpistyles_v2/prm_16_9_856w/2020/01/13/node_61832/37386698/public/2020/01/13/B9722186325Z.1_20200113203021_000%2BGISF9KUMI.1-0.jpg?itok=X6xCOKeb1578988853",
+      "avis" :""
+    },
+    {
+      "id" : 19,
+      "commune" : "SARRANT",
+      "departement": 32,
+      "image": "https://www.leparisien.fr/resizer/-YBGhwx7RM2e6o_3sPY4LP_d2Is=/932x582/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/JZQEGHL3RZHG7K7KSN24SUEW6Y.jpg",
+      "avis" :""
+    },
+    {
+      "id" : 20,
+      "commune" : "HAUTELUCE",
+      "departement": 73,
+      "image": "https://s.rfi.fr/media/display/8de748bc-9d93-11ee-b01c-005056bfb2b6/w:980/p:16x9/000_343V97F.jpg",
+      "avis" :""
+    }
+  ]
 }
