@@ -1,3 +1,7 @@
+# API Trash Express
+
+API utilisé dans le cadre de notre projet Trash Express 
+
 ## Try it
 
 [https://my-json-server.typicode.com/typicode/demo](https://my-json-server.typicode.com/typicode/demo)
